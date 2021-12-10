@@ -72,7 +72,7 @@ sb.onclick = function() {
         result.innerHTML = '<a href=motos.html>Motos Suzuki</a>';
     } if (search_box == 'kawasaki') {
         result.innerHTML = '<a href=motos.html>Motos Kawasaki</a>';
-    } else (search_box !== 'indian') {
+    } else {
         result.innerHTML = '<p>No hay resultados</p>';
     }
 }
