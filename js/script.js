@@ -65,7 +65,15 @@ function actionLogin() {
 sb.onclick = function() {
     var search_box = document.getElementById("search-box").value;
     if (search_box == 'indian') {
-        result.innerHTML = '<a href="/motos.html">Motos Indian</a>';
+        result.innerHTML = '<a href=motos.html>Motos Indian</a>';
+    } if (search_box == 'motos') {
+        result.innerHTML = '<a href=motos.html>Ver motos</a>';
+    } if (search_box == 'suzuki') {
+        result.innerHTML = '<a href=motos.html>Motos Suzuki</a>';
+    } if (search_box == 'kawasaki') {
+        result.innerHTML = '<a href=motos.html>Motos Kawasaki</a>';
+    } else (search_box !== 'indian') {
+        result.innerHTML = '<p>No hay resultados</p>';
     }
 }
 
