@@ -32,6 +32,21 @@ section {
   background: #222;
 }
 
+.btn2 {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: .1rem 1rem;
+  background: dodgerblue;
+  color: #fff;
+  font-size: 1.3rem;
+  cursor: pointer;
+  opacity: 90%;
+}
+
+.btn2:hover {
+  background: #222;
+}
+
 .header {
   position: fixed;
   top: 0;
