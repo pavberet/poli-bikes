@@ -1,3 +1,4 @@
+//Accion de pequena ventana desplegada, al dar clic en el boton de usuario
 let searchForm = document.querySelector('.search-form');
 
 document.querySelector('#search-btn').onclick = () => {
